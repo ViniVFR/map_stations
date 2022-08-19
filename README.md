@@ -1,24 +1,22 @@
-# join
+# Map Stations
 
-## Project setup
+## Instalar os pacotes
 ```
 npm install
 ```
+## Json Server
 
-### Compiles and hot-reloads for development
+### instalação
+```
+npm install -g json-server
+```
+
+### Inicializar
+```
+json-server --watch db.json
+```
+
+### Compilar e rodar o projeto
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
